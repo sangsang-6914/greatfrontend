@@ -1,4 +1,4 @@
-function debounce(func, wait) {
+export function debounce(func, wait) {
   let timerId = null;
 
   return function (...args) {
